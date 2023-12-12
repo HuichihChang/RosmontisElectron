@@ -1,7 +1,5 @@
 const { app, BrowserWindow } = require("electron");
-
 const electron = require("electron");
-
 const path = require("path");
 const url = require("url");
 
@@ -22,7 +20,7 @@ function createWindow() {
     experimentalCanvasFeatures: true,
     icon: "./favicon.ico",
   });
-  mainWindow.loadFile("dist/rosmontis/index.html");
+  mainWindow.loadFile("source/rosmontis/index.html");
 
   mainWindow.on("closed", function () {
     mainWindow = null;

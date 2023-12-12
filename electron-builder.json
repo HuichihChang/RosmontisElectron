@@ -1,0 +1,21 @@
+{
+    "appId": "com.rosmontiselectron.app",
+    "copyright":"Chang Chün",
+    "productName": "rosmontis",
+    "icon":"favicon.ico",
+    "electronDownload":{
+      "mirror":"https://npm.taobao.org/mirrors/electron/"
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "portable"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
